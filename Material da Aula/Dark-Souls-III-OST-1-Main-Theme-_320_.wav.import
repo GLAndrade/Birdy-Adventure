@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Dark-Souls-III-OST-1-Main-Theme-_320_.wav-5f759baf4029ed2b16ea7f7b1ace73d7.sample"
+
+[deps]
+
+source_file="res://Material da Aula/Dark-Souls-III-OST-1-Main-Theme-_320_.wav"
+dest_files=[ "res://.import/Dark-Souls-III-OST-1-Main-Theme-_320_.wav-5f759baf4029ed2b16ea7f7b1ace73d7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Boss-Defeated-The-Legend-of-Zelda_-Twilight-Princess-_320_.wav-a6c88b6c85993eb75f6879fba39b8f39.sample"
+
+[deps]
+
+source_file="res://Material da Aula/sons/Boss-Defeated-The-Legend-of-Zelda_-Twilight-Princess-_320_.wav"
+dest_files=[ "res://.import/Boss-Defeated-The-Legend-of-Zelda_-Twilight-Princess-_320_.wav-a6c88b6c85993eb75f6879fba39b8f39.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

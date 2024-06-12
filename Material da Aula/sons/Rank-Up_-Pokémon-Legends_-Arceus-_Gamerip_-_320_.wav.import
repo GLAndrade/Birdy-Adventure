@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Rank-Up_-Pokémon-Legends_-Arceus-_Gamerip_-_320_.wav-b31ca672725c99b1687ddc22a10caed0.sample"
+
+[deps]
+
+source_file="res://Material da Aula/sons/Rank-Up_-Pokémon-Legends_-Arceus-_Gamerip_-_320_.wav"
+dest_files=[ "res://.import/Rank-Up_-Pokémon-Legends_-Arceus-_Gamerip_-_320_.wav-b31ca672725c99b1687ddc22a10caed0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

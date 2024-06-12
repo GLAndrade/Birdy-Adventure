@@ -1,0 +1,104 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Material da Aula/sons/Boss-Defeated-The-Legend-of-Zelda_-Twilight-Princess-_320_.wav" type="AudioStream" id=1]
+[ext_resource path="res://Material da Aula/04B_30__.TTF" type="DynamicFontData" id=2]
+[ext_resource path="res://FimTela.gd" type="Script" id=3]
+
+[sub_resource type="AnimatedTexture" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 30
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 15
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 25
+font_data = ExtResource( 2 )
+
+[node name="FimTela" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = SubResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -99.0
+margin_top = -40.0
+margin_right = 99.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+margin_right = 198.0
+margin_bottom = 40.0
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+margin_right = 198.0
+margin_bottom = 23.0
+custom_fonts/font = SubResource( 2 )
+text = "Voltar ao Menu"
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -479.915
+margin_top = -73.656
+margin_right = 485.085
+margin_bottom = -42.656
+custom_fonts/font = SubResource( 3 )
+text = "parabens voce completou todas as fases!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+autoplay = true
+
+[node name="Label3" type="Label" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -16.0
+margin_right = 657.0
+custom_fonts/font = SubResource( 4 )
+text = "Feito por: Guilherme Lourenco, Paulo Davi e Clara Oliveira"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -418.0
+margin_top = -13.0
+margin_right = 418.0
+margin_bottom = 13.0
+custom_fonts/font = SubResource( 5 )
+text = "Muito obrigado por ter jogado nosso jogo."
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]

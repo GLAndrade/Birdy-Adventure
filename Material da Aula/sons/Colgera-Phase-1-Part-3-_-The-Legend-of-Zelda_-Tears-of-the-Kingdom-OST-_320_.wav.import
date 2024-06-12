@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Colgera-Phase-1-Part-3-_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-OST-_320_.wav-661de88e800c9c3e52c0a0389e8eefa3.sample"
+
+[deps]
+
+source_file="res://Material da Aula/sons/Colgera-Phase-1-Part-3-_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-OST-_320_.wav"
+dest_files=[ "res://.import/Colgera-Phase-1-Part-3-_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-OST-_320_.wav-661de88e800c9c3e52c0a0389e8eefa3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

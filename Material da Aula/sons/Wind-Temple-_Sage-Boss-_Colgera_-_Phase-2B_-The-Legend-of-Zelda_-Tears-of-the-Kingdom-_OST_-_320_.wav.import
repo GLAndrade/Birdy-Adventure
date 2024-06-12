@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Wind-Temple-_Sage-Boss-_Colgera_-_Phase-2B_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-_OST_-_320_.wav-f2677ac9d6e6cfa3b29d3a5eddc25b6c.sample"
+
+[deps]
+
+source_file="res://Material da Aula/sons/Wind-Temple-_Sage-Boss-_Colgera_-_Phase-2B_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-_OST_-_320_.wav"
+dest_files=[ "res://.import/Wind-Temple-_Sage-Boss-_Colgera_-_Phase-2B_-The-Legend-of-Zelda_-Tears-of-the-Kingdom-_OST_-_320_.wav-f2677ac9d6e6cfa3b29d3a5eddc25b6c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
